@@ -8,7 +8,6 @@ terraform {
 
 inputs = {
     s3_bucket-name       = ""
-    # s3_empty_folders    = [""]
     s3_bucket-acl        = "private"
     s3_bucket-policy     = ""
     s3_bucket-cors_rule  = {}
